@@ -1,0 +1,15 @@
+.photo-tab-case{
+    width: 20%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.photo-zone{
+    padding-top: 1%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.photo-tab-case~.photo-tab-case{
+    padding-left: 1%;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color:  #44E5CA;
+}
+
+.horizontal-menu{
+    display: inline;
+    margin-right: -6px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.horizontal-menu:hover{
+    background-color: #2F9C7A;
+    cursor: pointer;
+}
+
+.horizontal-menu~.horizontal-menu{
+    border-left: black 1px solid; 
+}
+
+#horizontal-menu-list{
+    background-color: #3AC4A4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#vertical-menu-list{
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: #3AC4A4;
+    float: left;
+    font-size: 17px;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+.vertical-menu:hover{
+    background-color: #2F9C7A;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.vertical-menu~.vertical-menu{
+    padding-bottom: 1%;
+}
+
+.principal-area{
+    margin-left: 12%;
+    background-color: #3AC4A4;
+    margin-right: 4%;
+}
+
+#profile-pic{
+    width: auto;
+    margin: 0 auto;
+    margin-left: -15%;
+    height: 100%;
+}
+
+#profile-pic-shape{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position:relative;
+    overflow: hidden;
+}

@@ -1,3 +1,3 @@
 <?php
-    echo "salut";
+    include("view/core.php");
 ?>
